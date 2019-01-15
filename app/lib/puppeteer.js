@@ -38,7 +38,7 @@ class Browser {
     }
 
     await page.goto(url, {
-      waitUntil: 'networkidle0'
+      waitUntil: 'networkidle2'
     })
     return page
   }
