@@ -10,6 +10,7 @@ const MAX_QUEUE_LEN = 5
 
 const defaultPdfOptions = {
   displayHeaderFooter: true,
+  printBackground: true,
   format: 'A4',
   headerTemplate: `<p class="date"></p>`,
   footerTemplate: `<p>date</p>`,
